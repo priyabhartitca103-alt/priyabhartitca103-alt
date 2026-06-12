@@ -1,14 +1,9 @@
 name: 🐍 Generate Contribution Snake
 
 on:
-  # Runs automatically every day at midnight UTC
   schedule:
     - cron: "0 0 * * *"
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-
-  # Also runs on every push to main
   push:
     branches:
       - main
@@ -21,12 +16,13 @@ jobs:
 
     steps:
       - name: ⬇️ Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: 🐍 Generate Snake SVG (Light + Dark)
         uses: Platane/snk@v3
         with:
-          github_user_token: ${{ secrets.GITHUB_TOKEN }}
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
