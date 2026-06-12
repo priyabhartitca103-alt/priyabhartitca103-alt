@@ -108,11 +108,15 @@ me.say_hi()
 
 ---
 
-## 🏆 GitHub Trophies
+## 🏅 Achievements
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=priyabhartitca103-alt&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" width="100%" alt="GitHub Trophies"/>
+![Repos Badge](https://img.shields.io/badge/Public%20Repos-9-0ea5e9?style=for-the-badge&logo=github&logoColor=white)
+![Python](https://img.shields.io/badge/Top%20Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Open Source](https://img.shields.io/badge/Open%20Source-❤️-red?style=for-the-badge)
+![CV Projects](https://img.shields.io/badge/Computer%20Vision-Projects-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![ML Projects](https://img.shields.io/badge/Machine%20Learning-Projects-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 
 </div>
 
